@@ -8,3 +8,5 @@ install:
 - cpanm --installdeps --notest . || cat ~/.cpanm/build.log
 after_failure: 
 - cat ~/.cpanm/build.log
+script:
+- prove -lrv ./t
