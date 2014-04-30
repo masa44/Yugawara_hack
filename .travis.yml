@@ -5,7 +5,7 @@ before_install:
 - cpanm Carton
 - cpanm Mojolicious
 - cpanm Devel::Cover
-- cpanm Devel::Cover::Coveralls
+- cpanm Devel::Cover::Report::Coveralls
 install:
 - cpanm --installdeps --notest . || cat ~/.cpanm/build.log
 after_failure: 
