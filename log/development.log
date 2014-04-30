@@ -18,3 +18,9 @@
 [Thu May  1 01:30:48 2014] [debug] 200 OK (0.000941s, 1062.699/s).
 [Thu May  1 01:32:03 2014] [info] Listening at "http://*:3000".
 [Thu May  1 01:32:07 2014] [info] Listening at "http://*:3000".
+[Thu May  1 02:38:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu May  1 02:38:43 2014] [debug] GET "/".
+[Thu May  1 02:38:43 2014] [debug] Routing to controller "Yugawara::Example" and action "welcome".
+[Thu May  1 02:38:43 2014] [debug] Rendering template "example/welcome.html.ep".
+[Thu May  1 02:38:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu May  1 02:38:44 2014] [debug] 200 OK (0.009415s, 106.213/s).
