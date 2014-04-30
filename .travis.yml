@@ -4,9 +4,13 @@ perl:
 before_install:
 - cpanm Carton
 - cpanm Mojolicious
+- cpanm Devel::Cover
 install:
 - cpanm --installdeps --notest . || cat ~/.cpanm/build.log
 after_failure: 
 - cat ~/.cpanm/build.log
 script:
-- prove -lrv ./t
+- HARNESS_PERL_SWITCHES="-MDevel::Cover=+ignore,^local/|^t/" prove -lrv ./t
+after_success:
+- cover -report coveralls
+
