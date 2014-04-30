@@ -3,5 +3,5 @@ perl:
 - '5.16'
 - '5.14'
 before_install:
-- cpanm Carton
+- cpanm Mojolicious
 
