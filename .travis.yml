@@ -1,0 +1,41 @@
+language: perl # perlを利用
+
+# どのperlを使ってbuildするか、複数書いておくとそれぞれでテストが走る
+perl:
+  - "5.16"
+
+# どのserviceを利用するか
+# PrePANではredisを使っているのでredis-serverを入力、MySQLは初めから起動してるので設定いらない
+# http://docs.travis-ci.com/user/database-setup/ も参照
+#services:
+#  - redis-server
+
+# 環境変数の設定
+# 複数登録しておくと perl version x envの全ての組み合わせでテストされる
+#env:
+#  - PREPAN_ENV=travis
+
+# Cartonを入れたあと、carotn installを走らせる
+before_install:
+  - cpanm Mojolicious
+
+install:
+#  - carton install
+
+# テスト前に実行するコマンド
+# このスクリプトの中ではDBのセットアップとかしてる
+#before_script:
+#  - script/setup-travis.sh
+
+# テスト
+script:
+  - prove -lrv t
+
+# 通知系
+notifications:
+  email:
+    recipients:
+      - mashumalow@gmail.com
+    on_success: always
+    on_failure: always
+#  irc: "irc.perl.org#prepan"
