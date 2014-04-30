@@ -3,9 +3,9 @@ perl:
 - '5.16'
 - '5.14'
 
-before_install:
-- cpanm Mojolicious
-
-# テスト
-script:
--  prove -lrv ./t
+#before_install:
+#- cpanm Mojolicious
+#
+## テスト
+#script:
+#-  prove -lrv ./t
