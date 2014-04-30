@@ -19,7 +19,7 @@ perl:
 before_install:
   - cpanm Mojolicious
 
-install:
+#install:
 #  - carton install
 
 # テスト前に実行するコマンド
