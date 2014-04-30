@@ -1,0 +1,20 @@
+[Thu May  1 01:30:40 2014] [info] Listening at "http://*:3000".
+[Thu May  1 01:30:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu May  1 01:30:47 2014] [debug] GET "/profile/maezawa".
+[Thu May  1 01:30:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu May  1 01:30:47 2014] [debug] Template "not_found.html.ep" not found.
+[Thu May  1 01:30:47 2014] [debug] Rendering inline template.
+[Thu May  1 01:30:47 2014] [debug] Rendering inline template.
+[Thu May  1 01:30:47 2014] [debug] 404 Not Found (0.016463s, 60.742/s).
+[Thu May  1 01:30:47 2014] [debug] GET "/".
+[Thu May  1 01:30:47 2014] [debug] Routing to controller "Yugawara::Example" and action "welcome".
+[Thu May  1 01:30:47 2014] [debug] Rendering template "example/welcome.html.ep".
+[Thu May  1 01:30:47 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu May  1 01:30:47 2014] [debug] 200 OK (0.003469s, 288.268/s).
+[Thu May  1 01:30:48 2014] [debug] GET "/".
+[Thu May  1 01:30:48 2014] [debug] Routing to controller "Yugawara::Example" and action "welcome".
+[Thu May  1 01:30:48 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Thu May  1 01:30:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu May  1 01:30:48 2014] [debug] 200 OK (0.000941s, 1062.699/s).
+[Thu May  1 01:32:03 2014] [info] Listening at "http://*:3000".
+[Thu May  1 01:32:07 2014] [info] Listening at "http://*:3000".
