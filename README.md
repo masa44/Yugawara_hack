@@ -1,3 +1,3 @@
 Yugawara_hack
 =============
-[![Build Status](https://secure.travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME].png?branch=[YOUR_REPOSITORY_BRANCH]](https://travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME])
+https://travis-ci.org/masa44/Yugawara_hack.svg?branch=master
