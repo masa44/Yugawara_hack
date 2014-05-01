@@ -1,3 +1,4 @@
 Yugawara_hack
 =============
-https://travis-ci.org/masa44/Yugawara_hack.svg?branch=master
+
+[![Build Status](https://travis-ci.org/masa44/Yugawara_hack.svg?branch=master)](https://travis-ci.org/masa44/Yugawara_hack)
